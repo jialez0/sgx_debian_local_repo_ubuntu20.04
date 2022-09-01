@@ -1,0 +1,1178 @@
+Package: libsgx-ae-epid
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 3500
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-ae-epid_2.17.101.1-focal1_amd64.deb
+Size: 399056
+SHA256: 5d0b3acdfe3eba6f1056518e2ac81a1750ff49754ad2443d2413a894f4b07f73
+SHA1: e16da2045ed45f8edf0ee17fc3ef67b67059e10c
+MD5sum: b51bd38998b02d8323771c7d125f0325
+Description: Intel(R) Software Guard Extensions QE and PvE
+
+Package: libsgx-ae-id-enclave
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xun.li@intel.com>
+Installed-Size: 187
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ae-id-enclave/libsgx-ae-id-enclave_1.14.100.3-focal1_amd64.deb
+Size: 51064
+SHA256: 0e4c500247771d9136d12793e2e40914ca306a3836570db058b110f26469f11a
+SHA1: b992a021170f27ee5a150d5d544519d98fc544ae
+MD5sum: 7d795555c06263e5f3e6cab109c9b354
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives ID enclave
+
+Package: libsgx-ae-le
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 656
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-ae-le_2.17.101.1-focal1_amd64.deb
+Size: 161432
+SHA256: 113dd807a22ac71979737dfab646bfa3001977df2812f3500f6412a542098825
+SHA1: 7af857c6e16be2368a40795d3470aaa0db77b929
+MD5sum: a7e051f8141cef021dd60f150f856e81
+Description: Intel(R) Software Guard Extensions LE
+
+Package: libsgx-ae-pce
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 983
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-ae-pce_2.17.101.1-focal1_amd64.deb
+Size: 221268
+SHA256: d5969d4a2c598e621bc5ac209573c64174bab5425e54b209af888a31e269217d
+SHA1: a147642df07879e79c83d8fd29ec04499871a876
+MD5sum: 532ab6b8e630f4c4c39c60b8b083cdc0
+Description: Intel(R) Software Guard Extensions PCE
+
+Package: libsgx-ae-qe3
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 1309
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ae-qe3/libsgx-ae-qe3_1.14.100.3-focal1_amd64.deb
+Size: 224384
+SHA256: ac4cb76f8473303eaf3c40b4dcd4613528b789c32e96a91213fbf1d5b27ed5a3
+SHA1: 46ab67310ea08b1a759c81c50036858b789a22bb
+MD5sum: cdfe1977e6302fefc188f5fcc6e8ad00
+Description: Intel(R) Software Guard Extensions QE3
+
+Package: libsgx-ae-qve
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 3419
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ae-qve/libsgx-ae-qve_1.14.100.3-focal1_amd64.deb
+Size: 1149740
+SHA256: 9523790d6499cfbae7002f051b49a67f5589d62f3d0e58a7e09da65d3cd0646c
+SHA1: a0ca6a64598381d7eda3d75ce38a963b18573151
+MD5sum: 623f1c7b2f6066b8e416f8c5d0e732bd
+Description: Intel(R) Software Guard Extensions QVE
+
+Package: libsgx-ae-tdqe
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 1344
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ae-tdqe/libsgx-ae-tdqe_1.14.100.3-focal1_amd64.deb
+Size: 228388
+SHA256: dd332befecfe043c73c67c930f2d2ef8145fc91696b3dbb3d42d9e2c942fb2ff
+SHA1: 100ec6c6003a52d97986645829e9fa983eb57b54
+MD5sum: 230631a3da4bbf64e117ed6ab91769f6
+Description: Intel(R) Trust Domain Extensions QE
+
+Package: libsgx-aesm-ecdsa-plugin
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 153
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), sgx-aesm-service (>= 2.17.101.1-focal1), libsgx-qe3-logic (>= 1.14), libsgx-aesm-pce-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-ecdsa-plugin_2.17.101.1-focal1_amd64.deb
+Size: 32248
+SHA256: 229608697cf17c11ac1a8ba34fc58282ec58af23f6ad1a80358e9df0a40dc892
+SHA1: 3c129367554f926c307188cb77c2d35959d8ad0c
+MD5sum: 4fead4495625f12176486e086ecdb0cb
+Description: ECDSA Quote Plugin for Intel(R) Software Guard Extensions AESM Service
+
+Package: libsgx-aesm-ecdsa-plugin-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 30
+Depends: libsgx-aesm-ecdsa-plugin (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-ecdsa-plugin-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 5264
+SHA256: fafef4dd00275f7c8e8cfe8fdf30f7a95e1b1d5f7f2fe0822a35828e3e653a82
+SHA1: 34d7681c4bf591c5e176654344a0f507cba82887
+MD5sum: c0251fc344b17d07b61f9941a1ff40f3
+Description: debug symbols for libsgx-aesm-ecdsa-plugin
+Build-Ids: edae627ab064b5064dceb851a23e994c10d04638
+
+Package: libsgx-aesm-epid-plugin
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 215
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), sgx-aesm-service (>= 2.17.101.1-focal1), libsgx-ae-epid (>= 2.17.101.1-focal1), libsgx-aesm-pce-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-epid-plugin_2.17.101.1-focal1_amd64.deb
+Size: 54628
+SHA256: 33b0c04bb077d9b28eb07b38f0c658ac26fa81401571e2993f007ad6e81d2a2a
+SHA1: 5d3f634fb66b85bfe699dbb49b5bfd097406d473
+MD5sum: c1853b6cc036367bd45f233c1f40d825
+Description: EPID Quote Plugin for Intel(R) Software Guard Extensions AESM Service
+
+Package: libsgx-aesm-epid-plugin-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 48
+Depends: libsgx-aesm-epid-plugin (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-epid-plugin-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 9420
+SHA256: bbe9eccd9e72c49775b8a1ee5a9c8696178e9918ae0490de4fb370fa5ba317c2
+SHA1: 33f7c384b9e7429e3eb82e427ab5fed6d5d32d74
+MD5sum: 2ccf7be703e5398d6be9a992827cc762
+Description: debug symbols for libsgx-aesm-epid-plugin
+Build-Ids: ccd493aaccf83d977ef080c3cfbecb47e3add001
+
+Package: libsgx-aesm-launch-plugin
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 169
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), sgx-aesm-service (>= 2.17.101.1-focal1), libsgx-ae-le (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-launch-plugin_2.17.101.1-focal1_amd64.deb
+Size: 38876
+SHA256: 7f7b140b5e70e5e74e7bffb6138914a3f1d3d7b4ad207bc958cb0f9d2157a3f7
+SHA1: 6479a9e0d8bc5514dd50735ea90bee55d59df19c
+MD5sum: 4f3bbd17869fb306c2d80bc039136bfd
+Description: Launch Plugin for Intel(R) Software Guard Extensions AESM Service
+
+Package: libsgx-aesm-launch-plugin-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 33
+Depends: libsgx-aesm-launch-plugin (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-launch-plugin-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 6204
+SHA256: 1d0d3c128ef2c68c956d0ddad0d95be0f6447c766cceb2632dd761d8c1967ee6
+SHA1: dc03c5edc1f6493f146e91a0727ec37b9bf20ccd
+MD5sum: cf52d32daf7afb9bd18e68abcb36dcec
+Description: debug symbols for libsgx-aesm-launch-plugin
+Build-Ids: 2efbf925062d227dce82bf0e1024f092ac261118
+
+Package: libsgx-aesm-pce-plugin
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 146
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), sgx-aesm-service (>= 2.17.101.1-focal1), libsgx-pce-logic (>= 1.14), libsgx-ae-pce (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-pce-plugin_2.17.101.1-focal1_amd64.deb
+Size: 29484
+SHA256: af7d2d713fbb98d0f93e9db45c20379627978996ef1d2ab1138a662a510239f1
+SHA1: c1541783f34446436efe395ab60b7cf7dba52f57
+MD5sum: a30969e002666a405fb17903327d5dfc
+Description: PCE Plugin for Intel(R) Software Guard Extensions AESM Service
+
+Package: libsgx-aesm-pce-plugin-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 26
+Depends: libsgx-aesm-pce-plugin (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-pce-plugin-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 4596
+SHA256: 7e36b02ae51d5e9066ae07575833ecc45beee8ff8f5cc91dc4c6e6892e573e0f
+SHA1: fad137eeae811495ad99290d2e773231b1ba012f
+MD5sum: 5217a1511067fcbea9fa2e6fa3969435
+Description: debug symbols for libsgx-aesm-pce-plugin
+Build-Ids: 2e29848ee10cbc7c0a430759a79ba8c7af3c7d5a
+
+Package: libsgx-aesm-quote-ex-plugin
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 171
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), sgx-aesm-service (>= 2.17.101.1-focal1), libsgx-aesm-ecdsa-plugin (>= 2.17.101.1-focal1)
+Recommends: libsgx-aesm-epid-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-quote-ex-plugin_2.17.101.1-focal1_amd64.deb
+Size: 40612
+SHA256: 7fdc71045bc9c63582d95125c028c21243743adff9d9d84a42237b61552eeabd
+SHA1: 2606097f0c53e112c561a31dff436efa10772ee1
+MD5sum: 30b94f11963bd012f858da5191985a08
+Description: Unified Quote Plugin for Intel(R) Software Guard Extensions AESM Service
+
+Package: libsgx-aesm-quote-ex-plugin-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 33
+Depends: libsgx-aesm-quote-ex-plugin (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/libsgx-aesm-quote-ex-plugin-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 5828
+SHA256: e27c2435336973a398d0a955ca61df704cf7aef3ff7e3b08f1178bcf7a6c664f
+SHA1: 629309b3fa8ce592fb8e65d53eab096ef58962e8
+MD5sum: 4a9d29b9c700d56017386f546a6e913a
+Description: debug symbols for libsgx-aesm-quote-ex-plugin
+Build-Ids: 9c8925e2d95a977a91ef8a3c251fee3e597630fa
+
+Package: libsgx-dcap-default-qpl
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 1938
+Depends: libc6 (>= 2.25), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-dcap-default-qpl/libsgx-dcap-default-qpl_1.14.100.3-focal1_amd64.deb
+Size: 700520
+SHA256: d5054bfb01e71a34b7a6d48eb8114273dacf235baf093d286c16a77a7f4c2ae8
+SHA1: b4154ca3b23af72ccc26d3d26ca7c64bf7c136af
+MD5sum: b4dd75d406842f5beaefb8d65d36d6d5
+Description: Intel(R) Software Guard Extensions Default Quote Provider Library
+
+Package: libsgx-dcap-default-qpl-dbgsym
+Package-Type: ddeb
+Source: libsgx-dcap-default-qpl
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 1781
+Depends: libsgx-dcap-default-qpl (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-dcap-default-qpl/libsgx-dcap-default-qpl-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 1560664
+SHA256: 7e88b1cbdd9a0f21112a5c61e664fedc0e8678249d1085fdfa846b1b267c47f2
+SHA1: 21698b5242efc303129b3085b7972d2313156fac
+MD5sum: 4fddb1f8e308adb477f87960f872db5d
+Description: debug symbols for libsgx-dcap-default-qpl
+Build-Ids: 3f152241b7a037782a2ab566df200949741af1ca 90d521038335c8dfd000df44f3d4b7d7b7f09ead
+
+Package: libsgx-dcap-default-qpl-dev
+Source: libsgx-dcap-default-qpl
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 15
+Depends: libsgx-dcap-default-qpl (= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-dcap-default-qpl/libsgx-dcap-default-qpl-dev_1.14.100.3-focal1_amd64.deb
+Size: 2764
+SHA256: 26b47661351a2f0f13c39ea8daeba82e7d9f2aa6d0d4ca288b6da444004d2a62
+SHA1: fb0b45bde644b27cad5d4bbfd56f00d7a7b7cbec
+MD5sum: 1b75081f664612c9e9cf15b8e04c678e
+Description: Intel(R) Software Guard Extensions Default Quote Provider Library For Developers
+
+Package: libsgx-dcap-ql
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 30
+Depends: libsgx-qe3-logic (>= 1.14.100.3-focal1), libsgx-pce-logic (>= 1.14.100.3-focal1), libc6 (>= 2.4)
+Recommends: libsgx-dcap-quote-verify (>= 1.14.100.3-focal1), libsgx-quote-ex (>= 2.17)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-dcap-ql/libsgx-dcap-ql_1.14.100.3-focal1_amd64.deb
+Size: 6176
+SHA256: eec2720974d3c09b1d9b33e5a3d42110951da2bc9694f534110078956b6875fe
+SHA1: a7a801efba36cc51ceed0c605b984709cf95ce88
+MD5sum: 3e17a20eb46ff893f26e83031650876e
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives
+
+Package: libsgx-dcap-ql-dbgsym
+Package-Type: ddeb
+Source: libsgx-dcap-ql
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 34
+Depends: libsgx-dcap-ql (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-dcap-ql/libsgx-dcap-ql-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 20348
+SHA256: 0044fc83935621c8ca4a31ebf49297e19960873a75e1ffe4e6c3a129ad14daec
+SHA1: 07aa7ff0e7b4d37d8a2c3a4c275df9d51ced79ed
+MD5sum: 090b4b5475850d28f0fa5310f46b5a03
+Description: debug symbols for libsgx-dcap-ql
+Build-Ids: 92980612b2336813372b6a6bdde2328fa232c430
+
+Package: libsgx-dcap-ql-dev
+Source: libsgx-dcap-ql
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 18
+Depends: libsgx-dcap-ql (= 1.14.100.3-focal1), libsgx-headers (>= 2.17)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-dcap-ql/libsgx-dcap-ql-dev_1.14.100.3-focal1_amd64.deb
+Size: 3476
+SHA256: 4af6feae1a5af91c266595f14892fdcdad981327ee08012c3ed64d54d48710ec
+SHA1: a1c2492bb241683fdb7d167c9aa54ee57ef4d508
+MD5sum: e63d04c15167bfd18369c4e66b912720
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives For Developers
+
+Package: libsgx-dcap-quote-verify
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <hongyan.jiang@intel.com>
+Installed-Size: 2193
+Depends: libc6 (>= 2.25), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Recommends: libsgx-ae-qve (>= 1.14.100.3-focal1), libsgx-urts (>= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-dcap-quote-verify/libsgx-dcap-quote-verify_1.14.100.3-focal1_amd64.deb
+Size: 783896
+SHA256: 159b8cf0cee3063fa5f3020076294eca3e9d6993810e674a5c19593a218352ba
+SHA1: 7a7aaa2b1ba968b602d05d663c7d4c4e19f3b143
+MD5sum: 4c25e824cc2b7c7f1a0a3062f6c33232
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives
+
+Package: libsgx-dcap-quote-verify-dbgsym
+Package-Type: ddeb
+Source: libsgx-dcap-quote-verify
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <hongyan.jiang@intel.com>
+Installed-Size: 389
+Depends: libsgx-dcap-quote-verify (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-dcap-quote-verify/libsgx-dcap-quote-verify-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 80320
+SHA256: bff2a9748bda8976a956f928a2186a6b264e112353ef90cab98f66fdeb4b938b
+SHA1: d1061c7180e90d0ef76e84104ab1186721697401
+MD5sum: 680d9dd146344f41dcb8c3af172355e8
+Description: debug symbols for libsgx-dcap-quote-verify
+Build-Ids: 2bb9f48d075bdb74352ecca731b972558d2a6b4e
+
+Package: libsgx-dcap-quote-verify-dev
+Source: libsgx-dcap-quote-verify
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <hongyan.jiang@intel.com>
+Installed-Size: 33
+Depends: libsgx-dcap-quote-verify (= 1.14.100.3-focal1), libsgx-headers (>= 2.17)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-dcap-quote-verify/libsgx-dcap-quote-verify-dev_1.14.100.3-focal1_amd64.deb
+Size: 6276
+SHA256: 14536220d9ba5d91fb7b01b4cb90981e2a43dc6f74395693e021ea479d5338a9
+SHA1: 7e3f3d6d7b65debe6b63c47d81afdd379c5dcd54
+MD5sum: 084ee272830c531790250614072eab6f
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives For Developers
+
+Package: libsgx-enclave-common
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 153
+Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Recommends: libsgx-launch (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-enclave-common/libsgx-enclave-common_2.17.101.1-focal1_amd64.deb
+Size: 32448
+SHA256: ca04cfe940c4470605730b6192c8c1b0ffe814af32b960144b47a150444ec155
+SHA1: 0d0275d14825ac3aef04bce50bc159f772751c69
+MD5sum: 1bf17b51414d7135209804d17000da62
+Description: Intel(R) Software Guard Extensions Enclave Common Loader
+
+Package: libsgx-enclave-common-dbgsym
+Package-Type: ddeb
+Source: libsgx-enclave-common
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 23
+Depends: libsgx-enclave-common (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-enclave-common/libsgx-enclave-common-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 3756
+SHA256: 4d55b854fcea4ba08af771dda6aa5779071d3b26857bc379953663441d6f3a0e
+SHA1: 4670d4edcdcbcc6c47f4ad874a15c025d16d9b0c
+MD5sum: c545951585c7e80385cbe3c415c79d84
+Description: debug symbols for libsgx-enclave-common
+Build-Ids: e679931a5ae9adaeac53d49b9ed43de67d3408cf
+
+Package: libsgx-enclave-common-dev
+Source: libsgx-enclave-common
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 120
+Depends: libsgx-enclave-common (= 2.17.101.1-focal1), libsgx-headers (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-enclave-common/libsgx-enclave-common-dev_2.17.101.1-focal1_amd64.deb
+Size: 23588
+SHA256: 736eb9f9284f0a86b2f25e2ea484eb4165caa7bd685ed401dfe59e0fe955d7ee
+SHA1: 3335fdbe7c6fb218829b2af7fb79287885870d1c
+MD5sum: 84ab9fb27ba958c50ed59ddf00dda2f8
+Description: Intel(R) Software Guard Extensions Enclave Common Loader for Developers
+
+Package: libsgx-epid
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 379
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libprotobuf17, libstdc++6 (>= 5.2)
+Recommends: libsgx-aesm-epid-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-epid/libsgx-epid_2.17.101.1-focal1_amd64.deb
+Size: 74412
+SHA256: 015637a51f87f45f84fe8d70e6adf3a38acd2a2e074c5abc1d8cde76ad927a9c
+SHA1: 5a1ca7b06cae1e8f19ba6defd141e8005b4d58b8
+MD5sum: cd4a8e4c89c0de9e1220cd857cb4102f
+Description: Intel(R) Software Guard Extensions EPID Quote Service
+
+Package: libsgx-epid-dbgsym
+Package-Type: ddeb
+Source: libsgx-epid
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 178
+Depends: libsgx-epid (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-epid/libsgx-epid-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 22664
+SHA256: 47a5e3b1cf5b6b143dbfc28445c06f7098a3c7f7b1bfbe8b290977a0f38262a9
+SHA1: bf004270ad028f1b887c436a174979f07c6c4c36
+MD5sum: 0a7ae19a827c42fc9f33d9f4f288a655
+Description: debug symbols for libsgx-epid
+Build-Ids: dc3611e3c12f759dd268c24b3141b722e705ae0a
+
+Package: libsgx-epid-dev
+Source: libsgx-epid
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 113
+Depends: libsgx-epid (= 2.17.101.1-focal1), libsgx-headers (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-epid/libsgx-epid-dev_2.17.101.1-focal1_amd64.deb
+Size: 22620
+SHA256: f69f8521550a18300b03387cc10e13a362ada0d216344592c7046dd77b4d4845
+SHA1: dd2806956800ac7989b2140efe444376d16bf532
+MD5sum: f0bef06056ee1cb049d5a9d1e6708fda
+Description: Intel(R) Software Guard Extensions EPID Quote Service for Developers
+
+Package: libsgx-headers
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 181
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-headers/libsgx-headers_2.17.101.1-focal1_amd64.deb
+Size: 33436
+SHA256: 94913613d17be00f2935088bf1ca500fbbc37a977872d985fc431b49107bc584
+SHA1: e2e8055fdbb6ac143d325235cd379561a0ef3149
+MD5sum: c9e8b34ac3aa62f38438d7e482de6698
+Description: Intel(R) Software Guard Extensions Basic Headers for Developers
+
+Package: libsgx-launch
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 375
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libprotobuf17, libstdc++6 (>= 5.2)
+Recommends: libsgx-aesm-launch-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-launch/libsgx-launch_2.17.101.1-focal1_amd64.deb
+Size: 72996
+SHA256: 0ebd89b26d53aff24314e694b310ff49a19788d121c0bd80692c3a78f28e4382
+SHA1: 1f60f8f935ea3900f8130e4223136edd068ff9f5
+MD5sum: 7c40ce546d1f715adca8b6ea9b67f9a5
+Description: Intel(R) Software Guard Extensions Launch Service
+
+Package: libsgx-launch-dbgsym
+Package-Type: ddeb
+Source: libsgx-launch
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 178
+Depends: libsgx-launch (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-launch/libsgx-launch-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 22444
+SHA256: 7c2592e82856a4625a8441daaa7139e53480bdfd302af5a9f3560565d8b9ac5f
+SHA1: 237f5b2ebde31393b2f4fe09beef0c65f6b8a6b7
+MD5sum: e19e5b8b4fd7f60dd4d6dfcff4aa2dfe
+Description: debug symbols for libsgx-launch
+Build-Ids: 309857f6cab2d2390ad4a06468257d0c1a8554bf
+
+Package: libsgx-launch-dev
+Source: libsgx-launch
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 109
+Depends: libsgx-launch (= 2.17.101.1-focal1), libsgx-headers (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-launch/libsgx-launch-dev_2.17.101.1-focal1_amd64.deb
+Size: 21536
+SHA256: cbf90a443854734172bca9f64fbc2d77d280a92da94e5ae765f29099c4b138ed
+SHA1: 1fed66a678f658113d5790f1d0f7955a06463107
+MD5sum: 85b02f4c9ab24b134d05e220cae84ceb
+Description: Intel(R) Software Guard Extensions Launch Service for Developers
+
+Package: libsgx-pce-logic
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 36
+Depends: libsgx-urts (>= 2.17), libsgx-ae-pce (>= 2.17), libc6 (>= 2.4), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-pce-logic/libsgx-pce-logic_1.14.100.3-focal1_amd64.deb
+Size: 8384
+SHA256: c15f8378584bd4ee45e24062a43bb45c047c25124d4e3032322acd8438574a00
+SHA1: d59460503ce605b4d3da44c845a1cd9b4456774d
+MD5sum: c0f4a98dd7f2b8799558b98df15f4a05
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives
+
+Package: libsgx-pce-logic-dbgsym
+Package-Type: ddeb
+Source: libsgx-pce-logic
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 41
+Depends: libsgx-pce-logic (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-pce-logic/libsgx-pce-logic-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 27748
+SHA256: cca45264a3e722039e4d6ca0005041b311e7c75680679ccadffc75bff4c5f0e8
+SHA1: 2c0b94ea197b680a6764a5ce0ff8ade5caba5c6d
+MD5sum: 2a71211f4469c7b13617202c6f919801
+Description: debug symbols for libsgx-pce-logic
+Build-Ids: 0d87198c221f03380be291bbb0d15e20b1037886
+
+Package: libsgx-qe3-logic
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 48
+Depends: libsgx-urts (>= 2.17), libsgx-ae-qe3 (>= 1.14.100.3-focal1), libsgx-ae-id-enclave (>= 1.14.100.3-focal1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-qe3-logic/libsgx-qe3-logic_1.14.100.3-focal1_amd64.deb
+Size: 13416
+SHA256: 6c63c494c0d2e78d0f6615538c8be2c1fadaadcad14afcbe9b0fa18a27f037a7
+SHA1: 01f16a2484e43ae9a26b1ef0cd3746183aaf2401
+MD5sum: 9155dcf0384bd60f1e609b6321753124
+Description: Intel(R) Software Guard Extensions Data Center Attestation Primitives
+
+Package: libsgx-qe3-logic-dbgsym
+Package-Type: ddeb
+Source: libsgx-qe3-logic
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 68
+Depends: libsgx-qe3-logic (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-qe3-logic/libsgx-qe3-logic-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 52720
+SHA256: 35cc559dea7405cbc8522dbd507da4858fea03f07e944cc982cd93bb77c659f1
+SHA1: 8c8821eb1fe192eea4c1121a06e99ed654cb505f
+MD5sum: f26b6a5ccdc147f0f51ad71f4aa7e867
+Description: debug symbols for libsgx-qe3-logic
+Build-Ids: 564a0e38188807aa863f3c40171647f8c964973c
+
+Package: libsgx-quote-ex
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 379
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libprotobuf17, libstdc++6 (>= 5.2)
+Recommends: libsgx-aesm-quote-ex-plugin (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-quote-ex/libsgx-quote-ex_2.17.101.1-focal1_amd64.deb
+Size: 74612
+SHA256: 54c4a8994a6e9fc0d978240cd563e216acb1a287adc5067d768073c3e3e109d0
+SHA1: 4e6de745acef136595170e83f5cba78b221c5e29
+MD5sum: 1b800da3892f1f75a3873fad16866b9b
+Description: Intel(R) Software Guard Extensions Unified Quote Service
+
+Package: libsgx-quote-ex-dbgsym
+Package-Type: ddeb
+Source: libsgx-quote-ex
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 179
+Depends: libsgx-quote-ex (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-quote-ex/libsgx-quote-ex-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 22660
+SHA256: be1e7a4f2b849feadb341805fba5309fcd967fd77ac354c1dbe38cbdd31e709c
+SHA1: d33827990b2e74d74b71d05d9f71b929b44407e0
+MD5sum: 793e9794884666420784190620148870
+Description: debug symbols for libsgx-quote-ex
+Build-Ids: f1c77425bc73adb9e824abf2bf3eb0c5eb8a5cf1
+
+Package: libsgx-quote-ex-dev
+Source: libsgx-quote-ex
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 122
+Depends: libsgx-quote-ex (= 2.17.101.1-focal1), libsgx-headers (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-quote-ex/libsgx-quote-ex-dev_2.17.101.1-focal1_amd64.deb
+Size: 24344
+SHA256: de3b9eea9e6fbf9c6f970b1726a323651890ea5661cc137393bbed3cbbc45817
+SHA1: d453a89d804c8557448a13be2ac9d27b596bf9af
+MD5sum: 8f6a274775baa6e97c1e8e399840a3f4
+Description: Intel(R) Software Guard Extensions Unified Quote Service for Developers
+
+Package: libsgx-ra-network
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 55
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ra-network/libsgx-ra-network_1.14.100.3-focal1_amd64.deb
+Size: 14172
+SHA256: f6e66ccd1b283542a220c51af2b780f337b6d923a6e6d191aa0cfda1786d5835
+SHA1: be05bc2c188aeda31d870f85699e07eaa1584e3d
+MD5sum: 05e1a8f1301ac46e7031fdf5d1d5ff27
+Description: Intel(R) Software Guard Extensions Registration Agent network library
+
+Package: libsgx-ra-network-dbgsym
+Package-Type: ddeb
+Source: libsgx-ra-network
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 20
+Depends: libsgx-ra-network (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-ra-network/libsgx-ra-network-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 3520
+SHA256: a82bb66a5deb23573f2402dc08ee023dfa27a920c85bc92ba45b5a49e8d65923
+SHA1: 39a319555fdb71abf826d9859b9c667dd24327b7
+MD5sum: 25a65c925d5ebd76b32db1406d231953
+Description: debug symbols for libsgx-ra-network
+Build-Ids: bc2f84c4ac9ba661258a5acab60fbe703b142fe9
+
+Package: libsgx-ra-network-dev
+Source: libsgx-ra-network
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 31
+Depends: libsgx-ra-network (= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-ra-network/libsgx-ra-network-dev_1.14.100.3-focal1_amd64.deb
+Size: 5232
+SHA256: 2d2df19d48d4e6d1335241bf732454846393df04032d9e3a66ae60460df314d7
+SHA1: 73bf154727a23f5573d8e72901dc58e7cd39f9b1
+MD5sum: 24477fe6151fff396e34b4b64d57a6e9
+Description: Intel(R) Software Guard Extensions Registration Agent network library for Developer
+
+Package: libsgx-ra-uefi
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 51
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-ra-uefi/libsgx-ra-uefi_1.14.100.3-focal1_amd64.deb
+Size: 12644
+SHA256: 8c1884a0fe80a3727ec3f6dd6f99984981a5a32b0d028f6f1c31f64f09410064
+SHA1: fd65b65712a2be39534a8c8a333de1ce49d47d76
+MD5sum: afa5900ae104ef2e4893bc62289172b5
+Description: Intel(R) Software Guard Extensions Registration Agent UEFI library
+
+Package: libsgx-ra-uefi-dbgsym
+Package-Type: ddeb
+Source: libsgx-ra-uefi
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 19
+Depends: libsgx-ra-uefi (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-ra-uefi/libsgx-ra-uefi-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 3300
+SHA256: 0ae265970cdab04d4f0547eb2378e7ae9f19eafc7e86fbfc5a86ccf52e21d6b5
+SHA1: 6b7bcd54b27769bac8d29699e5d7858b24c33c05
+MD5sum: 9e20aa4a754862dea12b13446aade197
+Description: debug symbols for libsgx-ra-uefi
+Build-Ids: 610917ccc6d40075b8bdf2110c1793ab34dfbae4
+
+Package: libsgx-ra-uefi-dev
+Source: libsgx-ra-uefi
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <junli.sun@intel.com>
+Installed-Size: 46
+Depends: libsgx-ra-uefi (= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-ra-uefi/libsgx-ra-uefi-dev_1.14.100.3-focal1_amd64.deb
+Size: 7880
+SHA256: 15106839e93713c9a1b1721bbc64cc9aca15aed8175ee154a9961db0206811a7
+SHA1: 9ed5f4a4b4ae7f18a2df86c28391b6a3d8837390
+MD5sum: cac96db30f91741d2b079da782fb82eb
+Description: Intel(R) Software Guard Extensions Registration Agent UEFI library for Developer
+
+Package: libsgx-tdx-logic
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 48
+Depends: libsgx-urts (>= 2.17), libsgx-pce-logic (>= 1.14.100.3-focal1), libsgx-ae-tdqe (>= 1.14.100.3-focal1), libsgx-ae-id-enclave (>= 1.14.100.3-focal1), libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-tdx-logic/libsgx-tdx-logic_1.14.100.3-focal1_amd64.deb
+Size: 13880
+SHA256: fb9ade315218313173d287fc20ef6e9a084df2202d8d3706efdf152c602e38d2
+SHA1: 910047650838e4a5d0209f658e3d22433f8d5db6
+MD5sum: 9f410c8b0a13ef0de747d44e092d9cbd
+Description: Intel(R) Trust Domain Extensions QE logic library
+
+Package: libsgx-tdx-logic-dbgsym
+Package-Type: ddeb
+Source: libsgx-tdx-logic
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 65
+Depends: libsgx-tdx-logic (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-tdx-logic/libsgx-tdx-logic-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 50676
+SHA256: bd393f9e67183ae5aeaf4ee23adeb6de79610b85d7c27c9884050efcb087f8a5
+SHA1: 1600aec10b6b0a0610a407809a4860e1b803e0b7
+MD5sum: fa4b88c0487589d82d9adfcb7f9489d9
+Description: debug symbols for libsgx-tdx-logic
+Build-Ids: 2ea8d71de5c09bedf0dd99e0f83631f6a7c779d8
+
+Package: libsgx-tdx-logic-dev
+Source: libsgx-tdx-logic
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 17
+Depends: libsgx-tdx-logic (= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libs/libsgx-tdx-logic/libsgx-tdx-logic-dev_1.14.100.3-focal1_amd64.deb
+Size: 3192
+SHA256: bc22a2b1999eb8c58521d1f36d1baab5e521a4333cf11d8b04b79d15fab16d12
+SHA1: 443ba4497754c3d891c361a332eb4c0ac0aaca87
+MD5sum: 7f02ab963e63ace6670749bbeae66c75
+Description: Intel(R) Trust Domain Extensions QE logic library For Developers
+
+Package: libsgx-uae-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 125
+Depends: libc6 (>= 2.2.5), libstdc++6 (>= 5), libsgx-epid (>= 2.17.101.1-focal1), libsgx-launch (>= 2.17.101.1-focal1), libsgx-quote-ex (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-uae-service/libsgx-uae-service_2.17.101.1-focal1_amd64.deb
+Size: 25124
+SHA256: ff62e2547b1d33fb99a62e0aaf7f06d76bfcdc345833307383618b60738be472
+SHA1: 0356991b0477252de64c0f617cf48bc6dfb47261
+MD5sum: da505f95b93be1b559194196db4c8d43
+Description: Intel(R) Software Guard Extensions Untrusted AE Service
+
+Package: libsgx-uae-service-dbgsym
+Package-Type: ddeb
+Source: libsgx-uae-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 18
+Depends: libsgx-uae-service (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-uae-service/libsgx-uae-service-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 3036
+SHA256: ceb51adcea6604593a30b3f2d750a5f3a8b1155b4530df82375467b5b63838b1
+SHA1: 725d641fd0dc756d04197f52e7a927b1c2344b0e
+MD5sum: f32ac410ac9212bbd7c204d355ce551e
+Description: debug symbols for libsgx-uae-service
+Build-Ids: 5a1b164307ca7cf7464251ad0daca2bfeb89513a
+
+Package: libsgx-urts
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 256
+Depends: libc6 (>= 2.16), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libsgx-enclave-common (>= 2.17.101.1-focal1)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsgx-urts/libsgx-urts_2.17.101.1-focal1_amd64.deb
+Size: 65456
+SHA256: 91e3f977842022414652202f43212bd9a6cc20d0c2e51192799b3f1316987fd9
+SHA1: e3060de1724d3764a26139257d181c70d454de52
+MD5sum: d5b688b88a7e187ee2f50f615ea9e52f
+Description: Intel(R) Software Guard Extensions uRTS
+
+Package: libsgx-urts-dbgsym
+Package-Type: ddeb
+Source: libsgx-urts
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 59
+Depends: libsgx-urts (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libs/libsgx-urts/libsgx-urts-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 11828
+SHA256: 18dd59982b11dfe57e046772e901afd136d0251c2e46dbed4e3f046e190006a6
+SHA1: 120f511647c0db3e3027e097050deb3f0978cfde
+MD5sum: 3092c688d1ecc00d915aab6de3a0299b
+Description: debug symbols for libsgx-urts
+Build-Ids: 183aae5ac108789bb48274416c9fe9bf7ed9427e
+
+Package: libtdx-attest
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 35
+Depends: libc6 (>= 2.14), libprotobuf-c1 (>= 1.0.1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: libs
+Filename: pool/main/libt/libtdx-attest/libtdx-attest_1.14.100.3-focal1_amd64.deb
+Size: 7096
+SHA256: f9e4448bb7a24a612a41bbf6d6f25d7a4c03c654510a6c7866ccf6f395e2acf3
+SHA1: 31036f4c355dde732519171930fa9bffaa356bac
+MD5sum: 366eb0764c8997deced7550e9c265b3f
+Description: Intel(R) Trust Domain Extensions Attestation library
+
+Package: libtdx-attest-dbgsym
+Package-Type: ddeb
+Source: libtdx-attest
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 31
+Depends: libtdx-attest (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/libt/libtdx-attest/libtdx-attest-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 15936
+SHA256: 2946112d3adb2e97a8aca1f9e00a1a5681b11739da08fc09c253fce18a73feea
+SHA1: f6ce963ad8012d9f61de74b7cd2e76c4af348e3f
+MD5sum: 50accb23c91279f9a329e3358097c266
+Description: debug symbols for libtdx-attest
+Build-Ids: 124291fc3bf70cfe0ef5e6fc3dcf8739b45f7af2
+
+Package: libtdx-attest-dev
+Source: libtdx-attest
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <feng.qiu@intel.com>
+Installed-Size: 35
+Depends: libtdx-attest (= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: devel
+Filename: pool/main/libt/libtdx-attest/libtdx-attest-dev_1.14.100.3-focal1_amd64.deb
+Size: 6504
+SHA256: 3c49c63f916fe7b7c50b23a990660cbe15fdb72cdfb897e73646955c2f74f2cd
+SHA1: 9a264c9f5b573501ba42457f5b7c31185def4a75
+MD5sum: 3e3011f59cc544a8d52662a96bdbb0eb
+Description: Intel(R) Trust Domain Extensions Attestation For Developers
+
+Package: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 2155
+Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf17, libssl1.1 (>= 1.1.1), libstdc++6 (>= 9)
+Homepage: https://github.com/intel/linux-sgx
+Priority: optional
+Section: utils
+Filename: pool/main/s/sgx-aesm-service/sgx-aesm-service_2.17.101.1-focal1_amd64.deb
+Size: 541000
+SHA256: 6a9748d2f6dcdf07fbb6e635eca6ea3f9e6e54390f69a05fff7c3a2e96776e4d
+SHA1: 5dffdaf47c487866d674600390d043ebdadb6461
+MD5sum: d70bce72775b1c242bd2de45509157c0
+Description: Intel(R) Software Guard Extensions AESM Service
+
+Package: sgx-aesm-service-dbgsym
+Package-Type: ddeb
+Source: sgx-aesm-service
+Version: 2.17.101.1-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 9163
+Depends: sgx-aesm-service (= 2.17.101.1-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-aesm-service/sgx-aesm-service-dbgsym_2.17.101.1-focal1_amd64.deb
+Size: 8715340
+SHA256: 4ba20c71e8333d8a4b48a856d3ddd47bcb7d91dbda402bcfc2b2115e144702f0
+SHA1: c086faf80103b968c26cb288c024acdb440cbdd7
+MD5sum: 98b8992102e7cfc6f2384b39b634b0fd
+Description: debug symbols for sgx-aesm-service
+Build-Ids: 6d928f4300ae76d4962db829ab929a476742cbb4 6fe975c53662b5526a89ab03bff605c2736b3511 76513d23d98d6ae42c80a2127c9e2d76ed58fc13 8166e0539ef96199bcb9b9e9cb41b21bc516cbd1 b98c9f06c84c759cc4ad13e5fc0154aab374647f f2e816517d2d50289e0038332bf3937f7527977d fd4cd8aa969339d947698b3fc071fcdc6665e414
+
+Package: sgx-dcap-pccs
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 2711
+Depends: npm, nodejs, build-essential
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: web
+Filename: pool/main/s/sgx-dcap-pccs/sgx-dcap-pccs_1.14.100.3-focal1_amd64.deb
+Size: 844336
+SHA256: 90c5ddb7b2a38948b9537cf9416d283d638861b0d47bf2e670919d17a4caa33e
+SHA1: 27afbab6a7ea30d63f2fbced5931971938dc3886
+MD5sum: 103aa76484a03663666e7d50feed2e5a
+Description: Intel(R) Software Guard Extensions PCK Caching Service
+
+Package: sgx-pck-id-retrieval-tool
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: Junli Sun <junli.sun@intel.com>
+Installed-Size: 69
+Depends: libc6 (>= 2.14), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Recommends: libsgx-urts (>= 2.17), libsgx-ae-pce (>= 1.14.100.3-focal1), libsgx-ae-id-enclave (>= 1.14.100.3-focal1), libsgx-ra-uefi (>= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: misc
+Filename: pool/main/s/sgx-pck-id-retrieval-tool/sgx-pck-id-retrieval-tool_1.14.100.3-focal1_amd64.deb
+Size: 18480
+SHA256: d344aa6f84cc75a6875a2723162b069ff715713e776fd56f1974d561bf3e1c3c
+SHA1: 001f9b2e70aa2bbeef059f7a0ac48dc93e5b7a0c
+MD5sum: d64c9618cd0420199c422f38d95ad44b
+Description: Intel(R) Software Guard Extensions: this tool is used to collect the platform information to retrieve the PCK certs from PCS(Provisioning Certification Server)
+
+Package: sgx-pck-id-retrieval-tool-dbgsym
+Package-Type: ddeb
+Source: sgx-pck-id-retrieval-tool
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Junli Sun <junli.sun@intel.com>
+Installed-Size: 23
+Depends: sgx-pck-id-retrieval-tool (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-pck-id-retrieval-tool/sgx-pck-id-retrieval-tool-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 4344
+SHA256: b8d746106505fc6fd24893a7fabab3dcc42b4782be04498b02951a6c1b84ff3a
+SHA1: 9dcaa2418f862c263bdf108720c41c8f510267b7
+MD5sum: 775181a4bc869577957108b32c0d6031
+Description: debug symbols for sgx-pck-id-retrieval-tool
+Build-Ids: 2c918a4759c970ba2db65b1c6c1fa65901c94d55
+
+Package: sgx-ra-service
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: Junli Sun <junli.sun@intel.com>
+Installed-Size: 107
+Depends: libc6 (>= 2.14), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), libsgx-ra-uefi (>= 1.14.100.3-focal1), libsgx-ra-network (>= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: misc
+Filename: pool/main/s/sgx-ra-service/sgx-ra-service_1.14.100.3-focal1_amd64.deb
+Size: 23828
+SHA256: ec8a1fb369a866a661368d0f5cd3c58e60da1bd53e2084606414f6949c5f6c5a
+SHA1: 2ee0d73afb7847130a1e25a4c4283e6730a58f5d
+MD5sum: 3cab88c8ccd393c31a8c6a0419cc9e00
+Description: Intel(R) Software Guard Extensions Multi-Package Registration Agent Service
+ Enables SGX Remote attestation for Multi-Package platforms
+
+Package: sgx-ra-service-dbgsym
+Package-Type: ddeb
+Source: sgx-ra-service
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Junli Sun <junli.sun@intel.com>
+Installed-Size: 38
+Depends: sgx-ra-service (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/s/sgx-ra-service/sgx-ra-service-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 6440
+SHA256: c8d0c160ffec05ed1b565a0b9db1557f957215b6e59b54e9d1fc799316bf1ee5
+SHA1: c104f2bbde943982ba53376a12a49e377387ec3f
+MD5sum: a5f23bf06d32e514bc8014d75704a468
+Description: debug symbols for sgx-ra-service
+Build-Ids: 0c3a962d9f8923909f7670273febaac657bce6a8 eecc4fdee92f6e9070bff6232faa840a03a0c7d8
+
+Package: tdx-qgs
+Version: 1.14.100.3-focal1
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 280
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libprotobuf-lite17, libstdc++6 (>= 9), libsgx-tdx-logic (>= 1.14.100.3-focal1)
+Homepage: https://github.com/intel/SGXDataCenterAttestationPrimitives
+Priority: optional
+Section: utils
+Filename: pool/main/t/tdx-qgs/tdx-qgs_1.14.100.3-focal1_amd64.deb
+Size: 76488
+SHA256: f3b2348c87f8c4cff2cca868c63399300cfacb1401c166c1fa8545cd18051304
+SHA1: 86f228b8048f086d27d399df781701a08db9b011
+MD5sum: 771a6d6a9288e8fbc9703eae4a17b422
+Description: Intel(R) TD Quoting Generation Service
+
+Package: tdx-qgs-dbgsym
+Package-Type: ddeb
+Source: tdx-qgs
+Version: 1.14.100.3-focal1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: <xiangquan.liu@intel.com>
+Installed-Size: 1221
+Depends: tdx-qgs (= 1.14.100.3-focal1)
+Priority: optional
+Section: debug
+Filename: pool/main/t/tdx-qgs/tdx-qgs-dbgsym_1.14.100.3-focal1_amd64.deb
+Size: 1122988
+SHA256: 0675b7b9827e0e43c17e2cfae7e2aac3e0dbd134b4eee98dffe36777bf6204d8
+SHA1: 1a4d04a0d19257dbb9f72d3bfb524c0502dec64e
+MD5sum: 39899e12bf38e91cf65936cd606e64e7
+Description: debug symbols for tdx-qgs
+Build-Ids: 64a361433bb3fae904769410aa21553e57f3877d
+
